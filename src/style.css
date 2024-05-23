@@ -1,26 +1,57 @@
 :root{
 --dark:rgb(255, 255, 255);
 }
+.container{
+    font-family: 'DM serif';
+}
 .dark{
     background-color: (--dark);
 }
-.text-box-top{
-    position: flex;
-   left: 100px;
-    transform: translate(30%,-120%);
-    background-color:rgb(243, 246, 248, 0.3);
-    max-width:60%;
+.background-img-top{
+    margin: 0 auto;
+    position: relative;
+
+}
+h1{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    background-color: rgba(190, 187, 187, 0.541);
     border-radius: 10px;
-
+    margin: 0,auto;
+    padding: 5px;
+    font-family: 'Courgette';
+}
+.card-title{
+    font-size: 28px;
+    font-family: 'Courgette';
+    font-weight: 600;
 
 }
-.text-center{
-    color:black;
-
-    font-family: "DM Serif Display", serif;
-    padding:5px;
-    font-size: 42px;
-    line-height: 42px;
+.card-body{
+    color:#3d3946;
+    background-color:whitesmoke;
+}
+.card-header{
 
 }
+#list-service, #card-list{
+     text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    font-size: 22px;
+    border:none;
+    text-decoration: underline;
 
+}
+#tele, #couple, #single{
+     text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+    font-size: 18px;
+    border:none;
+    text-decoration:none;
+}
