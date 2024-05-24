@@ -26,25 +26,33 @@ h1{
     font-family: 'Courgette';
 }
 .card-title{
-    font-size: 28px;
+    font-size: 38px;
     font-family: 'Courgette';
     font-weight: 600;
 
 }
-.card-body{
+.card-text{
     color:#3d3946;
-    background-color:whitesmoke;
+    background-color:none;
+    font-family: 'DM Serif Display';
+    font-size: 22px;
 }
-.card-header{
-
+.card-text-secondary{
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 0%;
 }
-#list-service, #card-list{
+#card-list{
+    border: none;
+}
+#list-service{
      text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 700;
     font-size: 22px;
-    border:none;
     text-decoration: underline;
+    padding-bottom: 20px;
+    background-color: rgb(179, 157, 240, 0.2);
+    border-radius: 20px;
 
 }
 #tele, #couple, #single{
@@ -53,5 +61,36 @@ h1{
     font-weight: 500;
     font-size: 18px;
     border:none;
-    text-decoration:none;
+}
+#mod-title{
+    font-size: 24px;
+}
+#mod-body{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 520;
+}
+.type-therapy{
+    text-align: center;
+    font-size: 32px;
+    font-family: 'DM Serif Display', italic;
+    padding-top: 40px;
+    margin-top: 20px;
+}
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.contact-me, .consultation, .about-me{
+    background-color: rgb(179, 157, 240);
+    padding: 10px 25px;
+    border-radius: 15px;
+    color: #242229;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'DM Serif Display';
+}
+a{
+    text-decoration: none;
 }
