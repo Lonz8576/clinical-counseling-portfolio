@@ -1,8 +1,10 @@
 :root{
 --dark:rgb(255, 255, 255);
+--large-main-font: 'Courgette';
+--main-body-font:'DM Serif Display';
 }
 .container{
-    font-family: 'DM serif';
+    font-family: var(--main-body-font);
 }
 .dark{
     background-color: (--dark);
@@ -23,23 +25,27 @@ h1{
     border-radius: 10px;
     margin: 0,auto;
     padding: 5px;
-    font-family: 'Courgette';
+    font-family: var(--large-main-font);
 }
 .card-title{
     font-size: 38px;
-    font-family: 'Courgette';
+    font-family: var(--large-main-font);
     font-weight: 600;
 
 }
 .card-text{
     color:#3d3946;
     background-color:none;
-    font-family: 'DM Serif Display';
+    font-family: var(--main-body-font);
     font-size: 22px;
 }
 .card-text-secondary{
     font-family: 'Times New Roman', Times, serif;
     padding-top: 0%;
+}
+#btn-card-outline{
+    border-color:  rgb(156, 127, 236, 0.8);
+    border-width: 3px;
 }
 #card-list{
     border: none;
@@ -89,8 +95,15 @@ footer{
     color: #242229;
     font-size: 18px;
     font-weight: 600;
-    font-family: 'DM Serif Display';
+    font-family: var(--main-body-font);
 }
 a{
     text-decoration: none;
+    color:  rgb(154, 124, 238);
+    font-weight: 700;
+}
+.coded-links{
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
 }
