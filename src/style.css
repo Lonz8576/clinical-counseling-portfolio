@@ -12,7 +12,6 @@
 .background-img-top{
     margin: 0 auto;
     position: relative;
-
 }
 h1{
     position: absolute;
@@ -27,11 +26,28 @@ h1{
     padding: 5px;
     font-family: var(--large-main-font);
 }
+.background-cred, h2{
+    text-align: center;
+}
+p{
+    text-indent: 20px;
+}
+
 .card-title{
     font-size: 38px;
     font-family: var(--large-main-font);
     font-weight: 600;
+    box-shadow: -2px 5px 6px 3px rgba(0, 0, 0, 0.2);
+    border: solid 1px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 2px;
+    border-radius: 6px;
 
+}
+.card-text-about{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    font-size: 18px;
 }
 .card-text{
     color:#3d3946;
@@ -42,6 +58,7 @@ h1{
 .card-text-secondary{
     font-family: 'Times New Roman', Times, serif;
     padding-top: 0%;
+    text-indent: none;
 }
 #btn-card-outline{
     border-color:  rgb(156, 127, 236, 0.8);
@@ -59,6 +76,7 @@ h1{
     padding-bottom: 20px;
     background-color: rgb(179, 157, 240, 0.2);
     border-radius: 20px;
+    box-shadow: -2px 5px 6px 3px rgba(0, 0, 0, 0.2);
 
 }
 #tele, #couple, #single{
@@ -70,33 +88,79 @@ h1{
 }
 #mod-title{
     font-size: 24px;
+    padding: 8px;
+
 }
 #mod-body{
     font-size: 18px;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 520;
+    text-indent: none;
 }
 .type-therapy{
     text-align: center;
     font-size: 32px;
-    font-family: 'DM Serif Display', italic;
+    font-family: 'DM Serif Display';
+    font-style: italic;
     padding-top: 40px;
     margin-top: 20px;
+    margin-bottom: 15px;
+    text-decoration: underline;
+}
+.contact-me, .consultation, .about-me{
+    background-color: rgb(179, 157, 240);
+    padding: 5px 15px;
+    border-radius: 15px;
+    color: #242229;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: var(--main-body-font);
+    box-shadow: -4px 16px 29px 7px rgba(0, 0, 0, 0.2);
+
+}
+.contact-btn-about{
+    display: flex;
+    justify-content: space-evenly;
+}
+.experience{
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 15px;
+    text-decoration: underline;
+    font-weight: 600;
+}
+.blockquote{
+    font-family: var(--main-body-font);
+    font-size: 26px;
+}
+.hero{
+    text-align: left;
+    padding-bottom: 25px;
+}
+#health-matters{
+    border-radius: 10px;
+}
+h5{
+    font-family: 'DM Serif Display';
+    font-style: italic;
+    font-size: 28px;
+    background-color: rgb(179, 157, 240, 0.2);
+
 }
 footer{
     display: flex;
     justify-content: space-evenly;
     padding: 20px;
 }
-.contact-me, .consultation, .about-me{
-    background-color: rgb(179, 157, 240);
-    padding: 10px 25px;
-    border-radius: 15px;
-    color: #242229;
-    font-size: 18px;
-    font-weight: 600;
-    font-family: var(--main-body-font);
+#about-me-col{
+     background-color: rgb(179, 157, 240, 0.2);
+     padding: 20px;
+     padding-bottom: 20px;
+     border-radius: 10px;
+     border: 2px solid rgb(36, 34, 41, 0.6);
+     box-shadow: -8px 5px 10px 2px rgba(0, 0, 0, 0.2);
 }
+
 a{
     text-decoration: none;
     color:  rgb(154, 124, 238);
