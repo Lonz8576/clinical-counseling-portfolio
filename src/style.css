@@ -90,13 +90,13 @@ p{
     font-size: 22px;
     padding: 5px;
 }
-#mod-body, .mod-text-body{
-    font-size: 16px;
+#mod-body{
+    font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 520;
     text-indent: none;
     text-align: center;
-    text-indent: none;
+    padding: 10px;
 }
 .type-therapy, .card-title-s{
     text-align: center;
@@ -108,10 +108,11 @@ p{
     margin-bottom: 15px;
     text-decoration: underline;
 }
-.card-title-s{
+.card-title-s, .mod-explained-title{
     margin-top: 0%;
     padding-top: 0cm;
-    font-size: 22px;
+    font-size: 28px;
+    text-align: center;
 }
 .contact-me, .consultation, .about-me{
     background-color: rgb(179, 157, 240);
@@ -135,6 +136,10 @@ p{
     text-decoration: underline;
     font-weight: 600;
 }
+#rainbow{
+    top: 15px;
+    
+}
 .blockquote{
     font-family: var(--main-body-font);
     font-size: 26px;
@@ -146,7 +151,7 @@ p{
 #health-matters{
     border-radius: 10px;
 }
-h5{
+h4{
     font-family: 'DM Serif Display';
     font-style: italic;
     font-size: 28px;
@@ -170,7 +175,7 @@ footer{
     border:2px inset rgb(154, 124, 238);
     box-shadow: -8px 5px 10px 2px rgba(0, 0, 0, 0.2);
 }
-a, .mod-explained-title{
+a{
     text-decoration: none;
     color:  rgb(154, 124, 238);
     font-weight: 700;
